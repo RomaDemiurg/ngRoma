@@ -3,6 +3,10 @@
 # compiled output
 /dist
 /tmp
+/semantic
+/src/dist_semantic
+/dist_aot
+/src/assets
 
 # dependencies
 /node_modules
