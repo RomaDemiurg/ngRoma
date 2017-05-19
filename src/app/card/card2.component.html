@@ -1,0 +1,49 @@
+<!--<button (click)="nextPage()">Next Page</button>-->
+<!--<button (click)="nextPage('-KbRz8fpW7NwGQiQGP2m')">Next Page 1</button>
+<button (click)="nextPage('-KgQPDk18tqdKcwCoAcM')">Next Page 2</button>-->
+
+<!--<button (click)="createFeed()">Create Feed</button>-->
+
+<div class="ui centered card" *ngFor="let KEY of KEYS">
+    {{ KEY }} - {{ TEST_VALUE_EVENT[KEY].count }}
+    <button (click)="incrementCounter(KEY, TEST_VALUE_EVENT[KEY].count)">Increment in FireBase</button>
+<!--
+    <input type="text" (keyup)="incrementCounter(value.key, $event.target.value)" [value]="value.count">
+
+    <button (click)="incrementCounter(value.key, value.count + 1)">Increment in FireBase</button>-->
+</div>
+
+<!--
+<div class="w3-containerapp-cardcard-2 w3-white w3-round w3-margin"><br>
+    <img src="assets/avatar6.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+    <span class="w3-right w3-opacity">32 min</span>
+    <h4>Angie Jane</h4><br>
+    <hr class="w3-clear">
+    <p>Have you seen this?</p>
+    <img src="assets/nature.jpg" style="width:100%" class="w3-margin-bottom">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i> &nbsp;Like</button>
+    <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i> &nbsp;Comment</button>
+</div>-->
+
+
+<!--<div class=app-cardcenteapp-cardcard" *ngFor="let feeapp-card FEED_DETAIL">
+    <div class="content">
+     app-cardcard-header [feed]="feed"></card-header>
+    </div>
+
+    <card-image [feed]="feed"></card-image>
+
+    <div class="extra content">
+        <like [feed_id]="6"></like>
+    </div>
+
+    <div class="extra content">
+        <comment [feed]="feed"></comment>
+    </div>
+
+    <div class="extra content">
+        <add-comment></add-comment>
+    </div>
+</div>-->

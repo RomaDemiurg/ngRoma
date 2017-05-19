@@ -6,7 +6,10 @@
 /semantic
 /src/dist_semantic
 /dist_aot
+/dist_old
+/e2e
 /src/assets
+/src/dist_semantic
 
 # dependencies
 /node_modules

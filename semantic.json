@@ -1,0 +1,35 @@
+{
+    "base": "semantic/",
+    "paths": {
+        "source": {
+            "config": "src/theme.config",
+            "definitions": "src/definitions/",
+            "site": "src/site/",
+            "themes": "src/themes/"
+        },
+        "output": {
+            "packaged": "../src/dist_semantic/",
+            "uncompressed": "../src/dist_semantic/components/",
+            "compressed": "../src/dist_semantic/components/",
+            "themes": "../src/dist_semantic/themes/"
+        },
+        "clean": "../src/dist_semantic/"
+    },
+    "permission": false,
+    "autoInstall": false,
+    "rtl": false,
+    "version": "2.2.10",
+    "components": [
+        "card",
+        "icon",
+        "input",
+        "image",
+        "comment",
+        "form",
+        "button",
+        "header",
+        "label",
+        "site",
+        "reset"
+    ]
+}

@@ -69,9 +69,9 @@
       "single"
     ],
     "radix": true,
-    "semicolon": [
-      "always"
-    ],
+    //    "semicolon": [
+    //      "always"
+    //    ],
     "triple-equals": [
       true,
       "allow-null-check"

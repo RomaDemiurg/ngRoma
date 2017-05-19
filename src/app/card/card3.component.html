@@ -1,0 +1,63 @@
+<!--<button (click)="getFeeds()">Next Page</button>-->
+<!--<button (click)="addFeed()">Add Feed</button>-->
+
+<!--<div *ngFor="let feed of feeds">-->
+<!--ID: {{ feed.id }} - {{ feed.likes }} - {{ feed.title }}-->
+<!--<app-comment [feed]="feed"></app-comment>-->
+<!--</div>-->
+
+<!--
+<div *ngFor="let feed of getAllFeeds">
+    ID: {{ feed.id }} <br>Likes: {{ feed.likes }}<br>Title: {{ feed.title }}<br><br>
+</div>-->
+
+<!--<div *ngIf="feed_id_array">-->
+<!--<test-feed [fia]="feed_id_array"></test-feed>-->
+<!--</div>-->
+
+<!--<div *ngIf="feed">{{ feed.author }}</div>-->
+
+<!--
+<h3>Feed Details</h3>
+<table>
+    <tr>
+        <th style="border: 1px solid gray">Id</th>
+        <th style="border: 1px solid gray">Title</th>
+    </tr>
+    <tr *ngFor="let feed of feeds">
+        <td style="border: 1px solid gray"> {{feed.id}} </td>
+        <td style="border: 1px solid gray"> {{feed.title}} </td>
+    </tr>
+</table>
+
+<hr>
+
+<div>
+    <input style="width: 220px" [(ngModel)]="feed.kind" /> Kind <br><br>
+    <input style="width: 220px" [(ngModel)]="feed.key" /> Key <br><br>
+    <input style="width: 220px" [(ngModel)]="feed.value.id" /> Id <br><br>
+    <input style="width: 220px" [(ngModel)]="feed.value.likes" /> Likes <br><br>
+    <input style="width: 220px" [(ngModel)]="feed.value.media" /> Media <br><br>
+    <input style="width: 220px" [(ngModel)]="feed.value.title" /> Title <br><br>
+
+    <button (click)="createFeed()">Create new Feed</button>
+</div>
+-->
+
+<h1 style="color: #00acc1" *ngIf="currentUser">Welcome: {{ currentUser.displayName }}</h1><br>
+<div>
+    <h5>Create User</h5>
+    <input style="width: 220px" [(ngModel)]="user.email" /> Email <br>
+    <input style="width: 220px" [(ngModel)]="user.password" /> Password <br>
+    <input style="width: 220px" [(ngModel)]="user.displayName" /> Name <br>
+
+    <button (click)="createUser()">Create User</button>
+</div>
+<hr>
+<div>
+    <h5>Login</h5>
+    <input style="width: 220px" [(ngModel)]="user.email" /> Email <br>
+    <input style="width: 220px" [(ngModel)]="user.password" /> Password <br>
+
+    <button (click)="login()">Login</button>
+</div>

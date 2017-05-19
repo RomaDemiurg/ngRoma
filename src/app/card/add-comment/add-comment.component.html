@@ -1,0 +1,8 @@
+<form class="ui reply form">
+    <div class="field">
+        <textarea (focus)="addComment()" (blur)="addComment()" rows="{{ rows }}"></textarea>
+    </div>
+    <div *ngIf="touched" class="ui blue labeled submit icon button right floated">
+        <i class="icon edit"></i> Add Reply
+    </div>
+</form>
